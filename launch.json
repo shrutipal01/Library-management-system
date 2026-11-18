@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python: Run Library Management System",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/library_system.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Run Unit Tests",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_library.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Generate Analytics & Charts",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/library_system.py",
+            "args": ["--analytics"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

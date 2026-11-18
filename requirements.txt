@@ -1,0 +1,6 @@
+# MCA17400: Problem Solving Using Python - PBL Project
+# Required external libraries for Data Analytics & Visualization
+
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
